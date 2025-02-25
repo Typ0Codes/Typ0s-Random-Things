@@ -13,24 +13,24 @@ MonoBehaviour:
   m_Name: Moonshine
   m_EditorClassIdentifier: 
   itemId: 0
-  itemName: Water Bottle
+  itemName: Moonshine
   spawnPositionTypes: []
   twoHanded: 0
   twoHandedAnimation: 0
   disableHandsOnWall: 0
   canBeGrabbedBeforeGameStart: 1
-  weight: 1.01
+  weight: 1.05
   itemIsTrigger: 0
   holdButtonUse: 0
   itemSpawnsOnGround: 1
-  isConductiveMetal: 1
+  isConductiveMetal: 0
   isScrap: 0
   creditsWorth: 0
   lockedInDemo: 0
   highestSalePercentage: 80
   maxValue: 180
   minValue: 130
-  spawnPrefab: {fileID: 4190259973941958234, guid: 3ca7b81d6228d8c40b63ca5f6b9bb086,
+  spawnPrefab: {fileID: 4190259973941958234, guid: 5086db58fdb51b04283bf9d0ac5c6ab7,
     type: 3}
   requiresBattery: 0
   batteryUsage: 15
@@ -41,9 +41,9 @@ MonoBehaviour:
   pocketAnim: 
   throwAnim: 
   grabAnimationTime: 0
-  grabSFX: {fileID: 8300000, guid: 2cd898bf69fa654449ce8be0001ad33b, type: 3}
-  dropSFX: {fileID: 8300000, guid: fbd430316f06ea14fbe0f755a9ef8878, type: 3}
-  pocketSFX: {fileID: 8300000, guid: fbd430316f06ea14fbe0f755a9ef8878, type: 3}
+  grabSFX: {fileID: 8300000, guid: 9e7f75698ede16e489ecd31c08586758, type: 3}
+  dropSFX: {fileID: 8300000, guid: 4d8395658804e9f458a85b4a65701875, type: 3}
+  pocketSFX: {fileID: 8300000, guid: 9e7f75698ede16e489ecd31c08586758, type: 3}
   throwSFX: {fileID: 0}
   syncGrabFunction: 0
   syncUseFunction: 0

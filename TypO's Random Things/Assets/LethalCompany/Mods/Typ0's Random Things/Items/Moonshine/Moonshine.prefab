@@ -140,10 +140,10 @@ GameObject:
   - component: {fileID: 9214760042473175647}
   - component: {fileID: 9058834007588017852}
   - component: {fileID: 4203554057946781985}
-  - component: {fileID: -4957238884647674739}
   - component: {fileID: 5277025461750257204}
   - component: {fileID: 9099621684645033007}
   - component: {fileID: 3835703654775640808}
+  - component: {fileID: 6928860127746209547}
   m_Layer: 6
   m_Name: Moonshine
   m_TagString: PhysicsProp
@@ -159,8 +159,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4190259973941958234}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.28, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -168,7 +168,7 @@ Transform:
   - {fileID: 4279305122930938500}
   - {fileID: 3171936192437216906}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!33 &9058834007588017852
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4190259973941958234}
-  m_Mesh: {fileID: 5461320835613783329, guid: 2287e07f583a0214485d99a0eb73aa1b, type: 3}
+  m_Mesh: {fileID: 4300000, guid: b525df5554eacd245b3cb12d730ce177, type: 2}
 --- !u!23 &4203554057946781985
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -197,7 +197,10 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2dc94684a47927a49a5cab3b0656f265, type: 2}
+  - {fileID: 2100000, guid: be92a688ad624ba48b8bf8d20cf046fc, type: 2}
+  - {fileID: 2100000, guid: caefc14c6175c32458a4499166399b6e, type: 2}
+  - {fileID: 2100000, guid: ebb22eba4bdfd694b96ece9707addf3d, type: 2}
+  - {fileID: 2100000, guid: 718619c98074dec4fac19e8a21259617, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -219,27 +222,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &-4957238884647674739
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4190259973941958234}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.09215536, y: 0.22613597, z: 0.10616206}
-  m_Center: {x: 0.00006336346, y: 0.13404289, z: 0.004749667}
 --- !u!114 &5277025461750257204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,9 +264,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0.3
   MinDistance: 4
-  MaxDistance: 17
+  MaxDistance: 18
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -292,23 +274,41 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
+      time: 0.22222222
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -4.5017996
+      outSlope: -4.5017996
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.4804857
+      value: 0.3241272
+      inSlope: -1.1254499
+      outSlope: -1.1254499
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8680149
+      value: 0.03503418
+      inSlope: -0.28136247
+      outSlope: -0.28136247
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 0
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.2223108
+      outSlope: -0.2223108
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
@@ -317,12 +317,21 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.4692117
       inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.19922909
+      value: 0.9994546
+      inSlope: 5.646424
+      outSlope: 5.646424
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.15382649
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -332,7 +341,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.125
+      value: 0.19722222
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -369,7 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 1007450382, guid: 3a762b136759d524d91473b18744f0bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabbable: 0
+  grabbable: 1
   isHeld: 0
   isHeldByEnemy: 0
   deactivated: 0
@@ -398,7 +407,7 @@ MonoBehaviour:
   propColliders: []
   originalScale: {x: 0, y: 0, z: 0}
   wasOwnerLastFrame: 0
-  mainObjectRenderer: {fileID: 0}
+  mainObjectRenderer: {fileID: 4203554057946781985}
   isSendingItemRPC: 0
   scrapPersistedThroughRounds: 0
   heldByPlayerOnServer: 0
@@ -413,6 +422,27 @@ MonoBehaviour:
   holdCanSFX: {fileID: 8300000, guid: f34a936804403f244a97e18a0ef6bee6, type: 3}
   removeCanSFX: {fileID: 8300000, guid: b63bfaaed8e80974fb6ba956b9c772e4, type: 3}
   outOfGasSFX: {fileID: 8300000, guid: b63bfaaed8e80974fb6ba956b9c772e4, type: 3}
+--- !u!65 &6928860127746209547
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4190259973941958234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0819916, y: 0.11424057, z: 0.081991605}
+  m_Center: {x: -0.04983329, y: 0.08423289, z: -0.045504812}
 --- !u!1 &4651112553609272682
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,8 +495,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.09215536, y: 0.22613597, z: 0.10616206}
-  m_Center: {x: 0.00006336346, y: 0.13404289, z: 0.004749667}
+  m_Size: {x: 0.0819916, y: 0.11424057, z: 0.081991605}
+  m_Center: {x: -0.04983329, y: 0.08423289, z: -0.045504812}
 --- !u!114 &553188268817166085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,7 +512,7 @@ MonoBehaviour:
   maxRange: 7
   minRange: 5
   requiresLineOfSight: 1
-  headerText: Water Bottle
+  headerText: Moonshine
   subText: 'Value: '
   scrapValue: 0
   creatureScanID: -1
