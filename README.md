@@ -63,3 +63,7 @@ Fixed bugs. made walkman contiue to play when pocketed but like muffled. added m
 <h3>2.0.1</h3>
 <br>
 fixed bugs. planning on adding a moonshine/whisky item next update.
+<br>
+<h3>2.1.1</h3>
+<br>
+Set up version control and proper github page. 
