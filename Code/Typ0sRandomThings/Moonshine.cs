@@ -105,7 +105,8 @@ public class MoonshineItem : GrabbableObject
                 localHelmetSFX.Stop();
                 RunOutOfFuelServerRpc();
             }
-            previousPlayerHeldBy.drunknessInertia = Mathf.Clamp(previousPlayerHeldBy.drunknessInertia + Time.deltaTime / 1.75f * previousPlayerHeldBy.drunknessSpeed, 0.1f, 3f);
+            previousPlayerHeldBy.drunknessInertia = Mathf.Clamp(previousPlayerHeldBy.drunknessInertia + Time.deltaTime / 3f * previousPlayerHeldBy.drunknessSpeed, 1f, 5f);
+            previousPlayerHeldBy.drunkness += 2f;
             previousPlayerHeldBy.increasingDrunknessThisFrame = true;
             fuel -= Time.deltaTime / 22f;
         }
