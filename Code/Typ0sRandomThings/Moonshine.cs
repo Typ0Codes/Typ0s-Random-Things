@@ -11,7 +11,7 @@ public class MoonshineItem : GrabbableObject
 
     private bool emittingGas;
 
-    private float fuel = 1f;
+    private float fuel = 5f;
 
     public AudioSource localHelmetSFX;
 

@@ -67,3 +67,7 @@ fixed bugs. planning on adding a moonshine/whisky item next update.
 <h3>2.1.1</h3>
 <br>
 Set up version control and proper github page. 
+<br>
+<h3>2.2.0</h3>
+<br>
+Added Moonshine that lets you get super drunk. figured out how version numbers work
