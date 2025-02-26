@@ -396,7 +396,7 @@ MonoBehaviour:
   isInElevator: 0
   isInShipRoom: 0
   isInFactory: 1
-  useCooldown: 0
+  useCooldown: 0.15
   currentUseCooldown: 0
   itemProperties: {fileID: 11400000, guid: 6a385173c77616a418115785fa1470c6, type: 2}
   insertedBattery:

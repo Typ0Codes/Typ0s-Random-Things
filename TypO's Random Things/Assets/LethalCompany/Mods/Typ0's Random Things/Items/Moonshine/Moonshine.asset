@@ -21,7 +21,7 @@ MonoBehaviour:
   canBeGrabbedBeforeGameStart: 1
   weight: 1.05
   itemIsTrigger: 0
-  holdButtonUse: 0
+  holdButtonUse: 1
   itemSpawnsOnGround: 1
   isConductiveMetal: 0
   isScrap: 0
@@ -46,9 +46,9 @@ MonoBehaviour:
   pocketSFX: {fileID: 8300000, guid: 9e7f75698ede16e489ecd31c08586758, type: 3}
   throwSFX: {fileID: 0}
   syncGrabFunction: 0
-  syncUseFunction: 0
-  syncDiscardFunction: 0
-  syncInteractLRFunction: 0
+  syncUseFunction: 1
+  syncDiscardFunction: 1
+  syncInteractLRFunction: 1
   saveItemVariable: 0
   isDefensiveWeapon: 0
   toolTips: []

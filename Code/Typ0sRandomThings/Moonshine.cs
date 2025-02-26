@@ -9,7 +9,7 @@ public class MoonshineItem : GrabbableObject
 
     private Coroutine useTZPCoroutine;
 
-    private bool emittingGas = false;
+    private bool emittingGas;
 
     private float fuel = 1f;
 
@@ -78,8 +78,8 @@ public class MoonshineItem : GrabbableObject
         thisAudioSource.PlayOneShot(holdCanSFX);
         WalkieTalkie.TransmitOneShotAudio(previousPlayerHeldBy.itemAudio, holdCanSFX);
         yield return new WaitForSeconds(0.75f);
-        emittingGas = false;
-        HUDManager.Instance.gasHelmetAnimator.SetBool("gasEmitting", value: false);
+        emittingGas = true;
+        //HUDManager.Instance.gasHelmetAnimator.SetBool("gasEmitting", value: true);
         if (base.IsOwner)
         {
             localHelmetSFX.Play();
@@ -105,7 +105,7 @@ public class MoonshineItem : GrabbableObject
                 localHelmetSFX.Stop();
                 RunOutOfFuelServerRpc();
             }
-            previousPlayerHeldBy.drunknessInertia = Mathf.Clamp(previousPlayerHeldBy.drunknessInertia + Time.deltaTime / 3.75f * previousPlayerHeldBy.drunknessSpeed, 0.5f, 6f);
+            previousPlayerHeldBy.drunknessInertia = Mathf.Clamp(previousPlayerHeldBy.drunknessInertia + Time.deltaTime / 1.75f * previousPlayerHeldBy.drunknessSpeed, 0.1f, 3f);
             previousPlayerHeldBy.increasingDrunknessThisFrame = true;
             fuel -= Time.deltaTime / 22f;
         }
