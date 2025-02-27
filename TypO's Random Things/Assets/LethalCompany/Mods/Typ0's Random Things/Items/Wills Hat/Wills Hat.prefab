@@ -327,7 +327,7 @@ MonoBehaviour:
   subText: 'Value: '
   scrapValue: 0
   creatureScanID: -1
-  nodeType: 0
+  nodeType: 2
 --- !u!65 &1643728944183573054
 BoxCollider:
   m_ObjectHideFlags: 0

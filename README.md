@@ -1,3 +1,11 @@
+<h1>DESCRIPTION</h1>
+<br>
+This mod adds a couple scrap items with more things on the way.
+<br>
+This mod is for me to learn unity and lethal company modding. im open to suggestions but dont expect results
+<br>
+if you wanna reach out to me do so here: https://discord.com/channels/1168655651455639582/1334524513832144946
+<br>
 <h1>CREDITS</h1>
 SLDTyp0 for programming and 3d scanning
 <br>
@@ -76,3 +84,7 @@ Added Moonshine that lets you get super drunk. figured out how version numbers w
 <h3>2.2.1</h3>
 <br>
 gave credit for moonshine modelso i dont get sued (i lowkey forgot till now)
+<br>
+<h3>2.2.2</h3>
+<br>
+fixed bug with scan nodes and made moonshine make you way less drunk so quickly

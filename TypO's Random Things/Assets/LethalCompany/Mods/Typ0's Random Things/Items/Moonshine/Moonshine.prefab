@@ -415,6 +415,8 @@ MonoBehaviour:
   reachedFloorTarget: 0
   grabbableToEnemies: 1
   hasBeenHeld: 0
+  fuel: 3
+  alcohollevel: 1.5
   localHelmetSFX: {fileID: 192713722626623473}
   thisAudioSource: {fileID: 4475624661332805060}
   twistCanSFX: {fileID: 8300000, guid: b1c2ae336d65f944fbcbfb7eed9f3798, type: 3}
@@ -516,7 +518,7 @@ MonoBehaviour:
   subText: 'Value: '
   scrapValue: 0
   creatureScanID: -1
-  nodeType: 0
+  nodeType: 2
 --- !u!1 &6729962448923999725
 GameObject:
   m_ObjectHideFlags: 0

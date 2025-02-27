@@ -51,7 +51,8 @@ MonoBehaviour:
   syncInteractLRFunction: 1
   saveItemVariable: 0
   isDefensiveWeapon: 0
-  toolTips: []
+  toolTips:
+  - 'Drink Away Your Sorrows: [LMB]'
   verticalOffset: 0
   floorYOffset: 0
   allowDroppingAheadOfPlayer: 1

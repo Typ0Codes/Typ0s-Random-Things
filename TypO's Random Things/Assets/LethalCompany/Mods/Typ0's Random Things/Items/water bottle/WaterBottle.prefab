@@ -348,4 +348,4 @@ MonoBehaviour:
   subText: 'Value: '
   scrapValue: 0
   creatureScanID: -1
-  nodeType: 0
+  nodeType: 2
