@@ -1,10 +1,11 @@
 <h1>CREDITS</h1>
 SLDTyp0 for programming and 3d scanning
 <br>
-<a href='https://sketchfab.com/noorani.hasnain3'>Hasnain on sketchfab for walkman 3d model<a>
+<a href='https://sketchfab.com/noorani.hasnain3'>Hasnain on sketchfab for walkman 3d model</a>
 <br>
 Kings of convience for some songs there music is peak and its like the only music ive listened too for 10 years until super recently
 <br>
+<a href='https://sketchfab.com/timRAGE90'>timRAGE90 on sketchfab for moonshine 3d model</a>
 <h1>FEATURES</h1>
 Will's Hat Scrap
 <br>
@@ -71,3 +72,7 @@ Set up version control and proper github page.
 <h3>2.2.0</h3>
 <br>
 Added Moonshine that lets you get super drunk. figured out how version numbers work
+<br>
+<h3>2.2.1</h3>
+<br>
+gave credit for moonshine modelso i dont get sued (i lowkey forgot till now)
