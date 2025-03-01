@@ -13,8 +13,6 @@ public class MoonshineItem : GrabbableObject
 
     public float fuel = 5f;
 
-    public float alcohollevel = 1.5f;
-
     public AudioSource localHelmetSFX;
 
     public AudioSource thisAudioSource;
@@ -107,8 +105,7 @@ public class MoonshineItem : GrabbableObject
                 localHelmetSFX.Stop();
                 RunOutOfFuelServerRpc();
             }
-            previousPlayerHeldBy.drunknessInertia = Mathf.Clamp(previousPlayerHeldBy.drunknessInertia + Time.deltaTime / (alcohollevel * 2f) * previousPlayerHeldBy.drunknessSpeed, alcohollevel, alcohollevel * 2.5f);
-            previousPlayerHeldBy.drunkness += 2f;
+            previousPlayerHeldBy.drunknessInertia = Mathf.Clamp(previousPlayerHeldBy.drunknessInertia + Time.deltaTime / 1.75f * previousPlayerHeldBy.drunknessSpeed, 0.1f, 3f);
             previousPlayerHeldBy.increasingDrunknessThisFrame = true;
             fuel -= Time.deltaTime / 22f;
         }

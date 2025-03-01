@@ -4,8 +4,7 @@ This mod adds a couple scrap items with more things on the way.
 <br>
 This mod is for me to learn unity and lethal company modding. im open to suggestions but dont expect results
 <br>
-if you wanna reach out to me do so here: https://discord.com/channels/1168655651455639582/1334524513832144946
-<br>
+if you wanna reach out to me do so here: <a href='https://discord.com/channels/1168655651455639582/1334524513832144946'>discord disscussion thread</a>
 <h1>CREDITS</h1>
 SLDTyp0 for programming and 3d scanning
 <br>
@@ -88,3 +87,11 @@ gave credit for moonshine modelso i dont get sued (i lowkey forgot till now)
 <h3>2.2.2</h3>
 <br>
 fixed bug with scan nodes and made moonshine make you way less drunk so quickly
+<br>
+<h3>2.2.3</h3>
+<br>
+changed item spawn rates. t
+<br>
+<h3>2.2.4</h3>
+<br>
+fixed walkman not playing for all players (it was super unskibidi rizzler sigma gyatt(im so sorry i dont know what deomon just possesed me to do that)) 

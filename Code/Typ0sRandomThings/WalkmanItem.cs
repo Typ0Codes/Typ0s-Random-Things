@@ -94,7 +94,7 @@ namespace Typ0sRandomThings
         {
             base.PocketItem();
             //walkmanAudio.pitch -= 0.05f;
-            walkmanAudio.volume = 0.7f;
+            walkmanAudio.volume = 0.55f;
             //StartMusic(startMusic: false);
         }
 
