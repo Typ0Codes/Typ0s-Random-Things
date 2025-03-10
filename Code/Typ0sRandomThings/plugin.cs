@@ -34,6 +34,7 @@ namespace Typ0sRandomThings
             Item waterbottle = bundle.LoadAsset<Item>("Assets/LethalCompany/Mods/Typ0's Random Things/Items/water bottle/Waterbottle.asset");
             Item fireextinguisher = bundle.LoadAsset<Item>("Assets/LethalCompany/Mods/Typ0's Random Things/Items/FireExtinguisher/firextinguisher.asset");
             Item moonshine = bundle.LoadAsset<Item>("Assets/LethalCompany/Mods/Typ0's Random Things/Items/Moonshine/Moonshine.asset");
+            Item whisky = bundle.LoadAsset<Item>("Assets/LethalCompany/Mods/Typ0's Random Things/Items/whisky/Whisky.asset");
 
 
             Logger.LogInfo("Loading Typ0's Random Things");
@@ -61,7 +62,11 @@ namespace Typ0sRandomThings
 
             NetworkPrefabs.RegisterNetworkPrefab(walkman.spawnPrefab);
             Utilities.FixMixerGroups(walkman.spawnPrefab);
+<<<<<<< Updated upstream
             Items.RegisterScrap(walkman, 65, Levels.LevelTypes.All);
+=======
+            Items.RegisterScrap(walkman, 35, Levels.LevelTypes.All);
+>>>>>>> Stashed changes
             Logger.LogInfo("Loaded walkman");
 
              
@@ -71,7 +76,12 @@ namespace Typ0sRandomThings
             Items.RegisterScrap(moonshine, 65, Levels.LevelTypes.All);
             Logger.LogInfo("Loaded moonshine");
 
-             
+            NetworkPrefabs.RegisterNetworkPrefab(whisky.spawnPrefab);
+            Utilities.FixMixerGroups(whisky.spawnPrefab);
+            Items.RegisterScrap(whisky, 40, Levels.LevelTypes.All);
+            Logger.LogInfo("Loaded whisky");
+
+
 
             Logger.LogInfo("Loaded All Items!");
 

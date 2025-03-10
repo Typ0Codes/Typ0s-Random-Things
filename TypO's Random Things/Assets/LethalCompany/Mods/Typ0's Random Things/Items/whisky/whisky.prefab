@@ -143,9 +143,9 @@ GameObject:
   - component: {fileID: 5277025461750257204}
   - component: {fileID: 9099621684645033007}
   - component: {fileID: 3835703654775640808}
-  - component: {fileID: 6928860127746209547}
+  - component: {fileID: 3053982103499572780}
   m_Layer: 6
-  m_Name: Moonshine
+  m_Name: whisky
   m_TagString: PhysicsProp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,16 +159,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4190259973941958234}
   serializedVersion: 2
-  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.28, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1712847740690561867}
   - {fileID: 4279305122930938500}
   - {fileID: 3171936192437216906}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &9058834007588017852
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -176,7 +176,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4190259973941958234}
-  m_Mesh: {fileID: 4300000, guid: b525df5554eacd245b3cb12d730ce177, type: 2}
+  m_Mesh: {fileID: 5461320835613783329, guid: c63983861abce0844816b177d2b3850e, type: 3}
 --- !u!23 &4203554057946781985
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -197,10 +197,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: be92a688ad624ba48b8bf8d20cf046fc, type: 2}
-  - {fileID: 2100000, guid: caefc14c6175c32458a4499166399b6e, type: 2}
-  - {fileID: 2100000, guid: ebb22eba4bdfd694b96ece9707addf3d, type: 2}
-  - {fileID: 2100000, guid: 718619c98074dec4fac19e8a21259617, type: 2}
+  - {fileID: 2100000, guid: 93f662d20c5d2df4499215b2dde466c0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -415,6 +412,8 @@ MonoBehaviour:
   reachedFloorTarget: 0
   grabbableToEnemies: 1
   hasBeenHeld: 0
+  fuel: 1
+  alcohollevel: 1.5
   localHelmetSFX: {fileID: 192713722626623473}
   thisAudioSource: {fileID: 4475624661332805060}
   twistCanSFX: {fileID: 8300000, guid: b1c2ae336d65f944fbcbfb7eed9f3798, type: 3}
@@ -422,7 +421,7 @@ MonoBehaviour:
   holdCanSFX: {fileID: 8300000, guid: f34a936804403f244a97e18a0ef6bee6, type: 3}
   removeCanSFX: {fileID: 8300000, guid: b63bfaaed8e80974fb6ba956b9c772e4, type: 3}
   outOfGasSFX: {fileID: 8300000, guid: b63bfaaed8e80974fb6ba956b9c772e4, type: 3}
---- !u!65 &6928860127746209547
+--- !u!65 &3053982103499572780
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -441,8 +440,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0819916, y: 0.11424057, z: 0.081991605}
-  m_Center: {x: -0.04983329, y: 0.08423289, z: -0.045504812}
+  m_Size: {x: 0.0010247405, y: 0.00041101326, z: 0.001123229}
+  m_Center: {x: -0.0000046584173, y: 0.0000025068657, z: -0.00007257116}
 --- !u!1 &4651112553609272682
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,8 +494,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0819916, y: 0.11424057, z: 0.081991605}
-  m_Center: {x: -0.04983329, y: 0.08423289, z: -0.045504812}
+  m_Size: {x: 0.0010247405, y: 0.00041101326, z: 0.001123229}
+  m_Center: {x: -0.0000046584173, y: 0.0000025068657, z: -0.00007257116}
 --- !u!114 &553188268817166085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,14 +508,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dade9d48c0c9d004081ba036b024b3d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRange: 13
-  minRange: 1
+  maxRange: 7
+  minRange: 5
   requiresLineOfSight: 1
-  headerText: Moonshine
+  headerText: Whisky
   subText: 'Value: '
   scrapValue: 0
   creatureScanID: -1
-  nodeType: 0
+  nodeType: 2
 --- !u!1 &6729962448923999725
 GameObject:
   m_ObjectHideFlags: 0
