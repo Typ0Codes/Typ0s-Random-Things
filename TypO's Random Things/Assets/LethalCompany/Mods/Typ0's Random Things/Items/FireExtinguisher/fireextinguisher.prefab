@@ -450,8 +450,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dade9d48c0c9d004081ba036b024b3d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxRange: 7
-  minRange: 5
+  maxRange: 13
+  minRange: 1
   requiresLineOfSight: 1
   headerText: Fire Extinguisher
   subText: 'Value: '
