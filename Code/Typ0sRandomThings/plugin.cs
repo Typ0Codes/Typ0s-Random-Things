@@ -62,11 +62,7 @@ namespace Typ0sRandomThings
 
             NetworkPrefabs.RegisterNetworkPrefab(walkman.spawnPrefab);
             Utilities.FixMixerGroups(walkman.spawnPrefab);
-<<<<<<< Updated upstream
-            Items.RegisterScrap(walkman, 65, Levels.LevelTypes.All);
-=======
-            Items.RegisterScrap(walkman, 35, Levels.LevelTypes.All);
->>>>>>> Stashed changes
+            Items.RegisterScrap(walkman, 30, Levels.LevelTypes.All);
             Logger.LogInfo("Loaded walkman");
 
              

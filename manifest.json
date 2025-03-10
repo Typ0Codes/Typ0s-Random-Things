@@ -1,9 +1,9 @@
 {
     "name": "Typ0sRandomThings",
     "author": "SLDTyp0",
-    "version_number": "2.2.4",
+    "version_number": "2.2.5",
     "website_url": "https://github.com/Typ0Codes/Typ0s-Random-Things",
-    "description": "Adds 5 scraps as of current with more planned!",
+    "description": "Adds 6 scraps as of current with more planned!",
     "dependencies": [
 	"Evaisa-LethalLib-0.16.2",
 	"BepInEx-BepInExPack-5.4.2100"

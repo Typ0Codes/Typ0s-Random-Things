@@ -22,6 +22,10 @@ Two Handed Fire Extinguisher Scrap
 <br>
 Walkman Noisemaker
 <br>
+moonshine alchoal item
+<br>
+whisky alchoal item
+<br>
 <h1>CHANGELOG</h3>
 <br>
 <h3>1.0.2</h3>
@@ -95,3 +99,7 @@ changed item spawn rates. t
 <h3>2.2.4</h3>
 <br>
 fixed walkman not playing for all players (it was super unskibidi rizzler sigma gyatt(im so sorry i dont know what deomon just possesed me to do that)) 
+<br>
+<h3>2.2.5</h3>
+<br>
+added whisky item
