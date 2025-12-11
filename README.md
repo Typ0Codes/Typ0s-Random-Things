@@ -22,7 +22,7 @@ Two Handed Fire Extinguisher Scrap
 <br>
 Walkman Noisemaker
 <br>
-moonshine alchoal item
+moonshine alchoal item, 
 <br>
 whisky alchoal item
 <br>
@@ -103,3 +103,8 @@ fixed walkman not playing for all players (it was super unskibidi rizzler sigma 
 <h3>2.2.5</h3>
 <br>
 added whisky item
+<br>
+<h3>2.2.6</h3>
+<br>
+fixed bugs
+added hatsune miku and lemon demon songs for those of use who relate to loot bug
